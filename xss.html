@@ -1,0 +1,15 @@
+<html>
+<body>
+  <h1>Welcome to our website</h1>
+  <p>Please enter your name:</p>
+  <input id="userName" type="text">
+  <button onclick="displayName()">Submit</button>
+
+  <script>
+    function displayName() {
+      var userName = document.getElementById("userName").value;
+      document.write("Hello " + userName + "!");
+    }
+  </script>
+</body>
+</html>
